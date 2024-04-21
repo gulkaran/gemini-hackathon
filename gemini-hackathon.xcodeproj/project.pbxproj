@@ -14,6 +14,7 @@
 		E75E23202BD4D40800E742EE /* gemini_hackathonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75E231F2BD4D40800E742EE /* gemini_hackathonTests.swift */; };
 		E75E232A2BD4D40800E742EE /* gemini_hackathonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75E23292BD4D40800E742EE /* gemini_hackathonUITests.swift */; };
 		E75E232C2BD4D40800E742EE /* gemini_hackathonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75E232B2BD4D40800E742EE /* gemini_hackathonUITestsLaunchTests.swift */; };
+		E75E23562BD4D4C000E742EE /* BottomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75E23552BD4D4C000E742EE /* BottomNavBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E75E23252BD4D40800E742EE /* gemini-hackathonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gemini-hackathonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E75E23292BD4D40800E742EE /* gemini_hackathonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gemini_hackathonUITests.swift; sourceTree = "<group>"; };
 		E75E232B2BD4D40800E742EE /* gemini_hackathonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gemini_hackathonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E75E23552BD4D4C000E742EE /* BottomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		E75E230D2BD4D40700E742EE /* gemini-hackathon */ = {
 			isa = PBXGroup;
 			children = (
+				E75E23382BD4D41A00E742EE /* Features */,
 				E75E230E2BD4D40700E742EE /* gemini_hackathonApp.swift */,
 				E75E23102BD4D40700E742EE /* ContentView.swift */,
 				E75E23122BD4D40800E742EE /* Assets.xcassets */,
@@ -125,6 +128,209 @@
 				E75E232B2BD4D40800E742EE /* gemini_hackathonUITestsLaunchTests.swift */,
 			);
 			path = "gemini-hackathonUITests";
+			sourceTree = "<group>";
+		};
+		E75E23382BD4D41A00E742EE /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				E75E233F2BD4D4A200E742EE /* BottomNavBar */,
+				E75E234C2BD4D4A200E742EE /* HealthStats */,
+				E75E23442BD4D4A200E742EE /* Prescriptions */,
+				E75E23482BD4D4A200E742EE /* Profile */,
+				E75E23502BD4D4A200E742EE /* Today */,
+				E75E23392BD4D43700E742EE /* FoodTracker */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		E75E23392BD4D43700E742EE /* FoodTracker */ = {
+			isa = PBXGroup;
+			children = (
+				E75E233C2BD4D48200E742EE /* Model */,
+				E75E233D2BD4D48200E742EE /* ViewModel */,
+				E75E233B2BD4D48200E742EE /* Views */,
+			);
+			path = FoodTracker;
+			sourceTree = "<group>";
+		};
+		E75E233B2BD4D48200E742EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			path = "../../../../google-gemini-hackathon/google-gemini-hackathon/Features/HealthStats/Views";
+			sourceTree = "<group>";
+		};
+		E75E233C2BD4D48200E742EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = "../../../../google-gemini-hackathon/google-gemini-hackathon/Features/HealthStats/Model";
+			sourceTree = "<group>";
+		};
+		E75E233D2BD4D48200E742EE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			path = "../../../../google-gemini-hackathon/google-gemini-hackathon/Features/HealthStats/ViewModel";
+			sourceTree = "<group>";
+		};
+		E75E233F2BD4D4A200E742EE /* BottomNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				E75E23402BD4D4A200E742EE /* ViewModel */,
+				E75E23412BD4D4A200E742EE /* Model */,
+				E75E23422BD4D4A200E742EE /* Views */,
+			);
+			path = BottomNavBar;
+			sourceTree = "<group>";
+		};
+		E75E23402BD4D4A200E742EE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E75E23412BD4D4A200E742EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E75E23422BD4D4A200E742EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E75E23552BD4D4C000E742EE /* BottomNavBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E75E23442BD4D4A200E742EE /* Prescriptions */ = {
+			isa = PBXGroup;
+			children = (
+				E75E23452BD4D4A200E742EE /* ViewModel */,
+				E75E23462BD4D4A200E742EE /* Model */,
+				E75E23472BD4D4A200E742EE /* Views */,
+			);
+			path = Prescriptions;
+			sourceTree = "<group>";
+		};
+		E75E23452BD4D4A200E742EE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E75E23462BD4D4A200E742EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E75E23472BD4D4A200E742EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E75E23482BD4D4A200E742EE /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				E75E23492BD4D4A200E742EE /* ViewModel */,
+				E75E234A2BD4D4A200E742EE /* Model */,
+				E75E234B2BD4D4A200E742EE /* Views */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		E75E23492BD4D4A200E742EE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E75E234A2BD4D4A200E742EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E75E234B2BD4D4A200E742EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E75E234C2BD4D4A200E742EE /* HealthStats */ = {
+			isa = PBXGroup;
+			children = (
+				E75E234D2BD4D4A200E742EE /* ViewModel */,
+				E75E234E2BD4D4A200E742EE /* Model */,
+				E75E234F2BD4D4A200E742EE /* Views */,
+			);
+			path = HealthStats;
+			sourceTree = "<group>";
+		};
+		E75E234D2BD4D4A200E742EE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E75E234E2BD4D4A200E742EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E75E234F2BD4D4A200E742EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E75E23502BD4D4A200E742EE /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				E75E23512BD4D4A200E742EE /* ViewModel */,
+				E75E23522BD4D4A200E742EE /* Model */,
+				E75E23532BD4D4A200E742EE /* Views */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		E75E23512BD4D4A200E742EE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E75E23522BD4D4A200E742EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E75E23532BD4D4A200E742EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +463,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E75E23562BD4D4C000E742EE /* BottomNavBar.swift in Sources */,
 				E75E23112BD4D40700E742EE /* ContentView.swift in Sources */,
 				E75E230F2BD4D40700E742EE /* gemini_hackathonApp.swift in Sources */,
 			);
