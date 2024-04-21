@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E75E230F2BD4D40700E742EE /* gemini_hackathonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75E230E2BD4D40700E742EE /* gemini_hackathonApp.swift */; };
+		E75E23112BD4D40700E742EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75E23102BD4D40700E742EE /* ContentView.swift */; };
+		E75E23132BD4D40800E742EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75E23122BD4D40800E742EE /* Assets.xcassets */; };
+		E75E23162BD4D40800E742EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75E23152BD4D40800E742EE /* Preview Assets.xcassets */; };
+		E75E23202BD4D40800E742EE /* gemini_hackathonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75E231F2BD4D40800E742EE /* gemini_hackathonTests.swift */; };
+		E75E232A2BD4D40800E742EE /* gemini_hackathonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75E23292BD4D40800E742EE /* gemini_hackathonUITests.swift */; };
+		E75E232C2BD4D40800E742EE /* gemini_hackathonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75E232B2BD4D40800E742EE /* gemini_hackathonUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E75E231C2BD4D40800E742EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E75E23032BD4D40700E742EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E75E230A2BD4D40700E742EE;
+			remoteInfo = "gemini-hackathon";
+		};
+		E75E23262BD4D40800E742EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E75E23032BD4D40700E742EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E75E230A2BD4D40700E742EE;
+			remoteInfo = "gemini-hackathon";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E75E230B2BD4D40700E742EE /* gemini-hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gemini-hackathon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75E230E2BD4D40700E742EE /* gemini_hackathonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gemini_hackathonApp.swift; sourceTree = "<group>"; };
+		E75E23102BD4D40700E742EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E75E23122BD4D40800E742EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E75E23152BD4D40800E742EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E75E231B2BD4D40800E742EE /* gemini-hackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gemini-hackathonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75E231F2BD4D40800E742EE /* gemini_hackathonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gemini_hackathonTests.swift; sourceTree = "<group>"; };
+		E75E23252BD4D40800E742EE /* gemini-hackathonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gemini-hackathonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75E23292BD4D40800E742EE /* gemini_hackathonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gemini_hackathonUITests.swift; sourceTree = "<group>"; };
+		E75E232B2BD4D40800E742EE /* gemini_hackathonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gemini_hackathonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E75E23082BD4D40700E742EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75E23182BD4D40800E742EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75E23222BD4D40800E742EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E75E23022BD4D40700E742EE = {
+			isa = PBXGroup;
+			children = (
+				E75E230D2BD4D40700E742EE /* gemini-hackathon */,
+				E75E231E2BD4D40800E742EE /* gemini-hackathonTests */,
+				E75E23282BD4D40800E742EE /* gemini-hackathonUITests */,
+				E75E230C2BD4D40700E742EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E75E230C2BD4D40700E742EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E75E230B2BD4D40700E742EE /* gemini-hackathon.app */,
+				E75E231B2BD4D40800E742EE /* gemini-hackathonTests.xctest */,
+				E75E23252BD4D40800E742EE /* gemini-hackathonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E75E230D2BD4D40700E742EE /* gemini-hackathon */ = {
+			isa = PBXGroup;
+			children = (
+				E75E230E2BD4D40700E742EE /* gemini_hackathonApp.swift */,
+				E75E23102BD4D40700E742EE /* ContentView.swift */,
+				E75E23122BD4D40800E742EE /* Assets.xcassets */,
+				E75E23142BD4D40800E742EE /* Preview Content */,
+			);
+			path = "gemini-hackathon";
+			sourceTree = "<group>";
+		};
+		E75E23142BD4D40800E742EE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E75E23152BD4D40800E742EE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E75E231E2BD4D40800E742EE /* gemini-hackathonTests */ = {
+			isa = PBXGroup;
+			children = (
+				E75E231F2BD4D40800E742EE /* gemini_hackathonTests.swift */,
+			);
+			path = "gemini-hackathonTests";
+			sourceTree = "<group>";
+		};
+		E75E23282BD4D40800E742EE /* gemini-hackathonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E75E23292BD4D40800E742EE /* gemini_hackathonUITests.swift */,
+				E75E232B2BD4D40800E742EE /* gemini_hackathonUITestsLaunchTests.swift */,
+			);
+			path = "gemini-hackathonUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E75E230A2BD4D40700E742EE /* gemini-hackathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E75E232F2BD4D40800E742EE /* Build configuration list for PBXNativeTarget "gemini-hackathon" */;
+			buildPhases = (
+				E75E23072BD4D40700E742EE /* Sources */,
+				E75E23082BD4D40700E742EE /* Frameworks */,
+				E75E23092BD4D40700E742EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gemini-hackathon";
+			productName = "gemini-hackathon";
+			productReference = E75E230B2BD4D40700E742EE /* gemini-hackathon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E75E231A2BD4D40800E742EE /* gemini-hackathonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E75E23322BD4D40800E742EE /* Build configuration list for PBXNativeTarget "gemini-hackathonTests" */;
+			buildPhases = (
+				E75E23172BD4D40800E742EE /* Sources */,
+				E75E23182BD4D40800E742EE /* Frameworks */,
+				E75E23192BD4D40800E742EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E75E231D2BD4D40800E742EE /* PBXTargetDependency */,
+			);
+			name = "gemini-hackathonTests";
+			productName = "gemini-hackathonTests";
+			productReference = E75E231B2BD4D40800E742EE /* gemini-hackathonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E75E23242BD4D40800E742EE /* gemini-hackathonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E75E23352BD4D40800E742EE /* Build configuration list for PBXNativeTarget "gemini-hackathonUITests" */;
+			buildPhases = (
+				E75E23212BD4D40800E742EE /* Sources */,
+				E75E23222BD4D40800E742EE /* Frameworks */,
+				E75E23232BD4D40800E742EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E75E23272BD4D40800E742EE /* PBXTargetDependency */,
+			);
+			name = "gemini-hackathonUITests";
+			productName = "gemini-hackathonUITests";
+			productReference = E75E23252BD4D40800E742EE /* gemini-hackathonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E75E23032BD4D40700E742EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					E75E230A2BD4D40700E742EE = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					E75E231A2BD4D40800E742EE = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = E75E230A2BD4D40700E742EE;
+					};
+					E75E23242BD4D40800E742EE = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = E75E230A2BD4D40700E742EE;
+					};
+				};
+			};
+			buildConfigurationList = E75E23062BD4D40700E742EE /* Build configuration list for PBXProject "gemini-hackathon" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E75E23022BD4D40700E742EE;
+			productRefGroup = E75E230C2BD4D40700E742EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E75E230A2BD4D40700E742EE /* gemini-hackathon */,
+				E75E231A2BD4D40800E742EE /* gemini-hackathonTests */,
+				E75E23242BD4D40800E742EE /* gemini-hackathonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E75E23092BD4D40700E742EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75E23162BD4D40800E742EE /* Preview Assets.xcassets in Resources */,
+				E75E23132BD4D40800E742EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75E23192BD4D40800E742EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75E23232BD4D40800E742EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E75E23072BD4D40700E742EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75E23112BD4D40700E742EE /* ContentView.swift in Sources */,
+				E75E230F2BD4D40700E742EE /* gemini_hackathonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75E23172BD4D40800E742EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75E23202BD4D40800E742EE /* gemini_hackathonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75E23212BD4D40800E742EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75E232A2BD4D40800E742EE /* gemini_hackathonUITests.swift in Sources */,
+				E75E232C2BD4D40800E742EE /* gemini_hackathonUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E75E231D2BD4D40800E742EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E75E230A2BD4D40700E742EE /* gemini-hackathon */;
+			targetProxy = E75E231C2BD4D40800E742EE /* PBXContainerItemProxy */;
+		};
+		E75E23272BD4D40800E742EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E75E230A2BD4D40700E742EE /* gemini-hackathon */;
+			targetProxy = E75E23262BD4D40800E742EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E75E232D2BD4D40800E742EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E75E232E2BD4D40800E742EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E75E23302BD4D40800E742EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gemini-hackathon/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gulkaran.gemini-hackathon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E75E23312BD4D40800E742EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gemini-hackathon/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gulkaran.gemini-hackathon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E75E23332BD4D40800E742EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gulkaran.gemini-hackathonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gemini-hackathon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gemini-hackathon";
+			};
+			name = Debug;
+		};
+		E75E23342BD4D40800E742EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gulkaran.gemini-hackathonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gemini-hackathon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gemini-hackathon";
+			};
+			name = Release;
+		};
+		E75E23362BD4D40800E742EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gulkaran.gemini-hackathonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "gemini-hackathon";
+			};
+			name = Debug;
+		};
+		E75E23372BD4D40800E742EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gulkaran.gemini-hackathonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "gemini-hackathon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E75E23062BD4D40700E742EE /* Build configuration list for PBXProject "gemini-hackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75E232D2BD4D40800E742EE /* Debug */,
+				E75E232E2BD4D40800E742EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E75E232F2BD4D40800E742EE /* Build configuration list for PBXNativeTarget "gemini-hackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75E23302BD4D40800E742EE /* Debug */,
+				E75E23312BD4D40800E742EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E75E23322BD4D40800E742EE /* Build configuration list for PBXNativeTarget "gemini-hackathonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75E23332BD4D40800E742EE /* Debug */,
+				E75E23342BD4D40800E742EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E75E23352BD4D40800E742EE /* Build configuration list for PBXNativeTarget "gemini-hackathonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75E23362BD4D40800E742EE /* Debug */,
+				E75E23372BD4D40800E742EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E75E23032BD4D40700E742EE /* Project object */;
+}
