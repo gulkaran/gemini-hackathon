@@ -11,7 +11,7 @@ struct BottomNavBar: View {
     
     var body: some View {
         TabView {
-            Page1().tabItem {
+            Welcome().tabItem {
                 Image(systemName:"cup.and.saucer.fill")
                 Text("Food Tracker")
             }
